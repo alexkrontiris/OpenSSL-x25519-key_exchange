@@ -9,11 +9,12 @@ make
 ```
 
 Run:
-__First__ run Alice:
+
+__First__ execute Alice:
 ```sh
 ./x25519-alice
 ```
-Then run Bob:
+...then Bob:
 ```sh
 ./x25519-bob
 ```
