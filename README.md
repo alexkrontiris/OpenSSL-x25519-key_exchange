@@ -9,7 +9,7 @@ make
 ```
 
 Run:
-~~First~~ run Alice:
+__First__ run Alice:
 ```sh
 ./x25519-alice
 ```
