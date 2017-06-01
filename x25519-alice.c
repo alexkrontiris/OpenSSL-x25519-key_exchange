@@ -82,7 +82,11 @@ int main() {
 		/* Error */
 		printf("Shared key derivation failed");
 	}
-	printf("\nShared secret:%s\n", skey);
+	printf("\nShared secret:\n");
+
+	for (size_t i = 0; i < skeylen; i++) {
+		printf("%02x", skey[i]);
+	}
 
 	return 0;
 }
